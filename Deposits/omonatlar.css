@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+::selection {
+  background-color: #000;
+  color: #fff;
+}
+body {
+  overflow-x: hidden;
+}
+
+.dark-mode {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+.dark-mode a {
+  color: #fff !important;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+li{
+  list-style-type: none;
+}
+a {
+  cursor: pointer;
+  outline: none !important;
+  text-decoration: none;
+}
+
+
+/* Deposits - Omonatlar */
+.deposits-section{
+  overflow: hidden;
+  width: 100%;
+  background: #f8f8f8;
+  padding: 50px 0 100px 0;
+  min-height: 100%;
+  margin: 60px 0 0 0;
+}
+.deposits-section .credit_cards{
+  overflow: hidden;
+  width: 100%;
+}
+.deposits-section .credit_cards .cards_head{
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.deposits-section .container{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+.deposits-section .credit_cards .cards_head h1{
+  font-size: 48px;
+  margin: 0 0 30px 0;
+  font-weight: 600;
+}
+.deposits-section .credit_cards .cards_head p{
+  font-size: 26px;
+  margin: 0 0 30px 0;
+  font-weight: 500;
+}
+.deposits-section h1{
+  font-size: 48px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.deposits-card-item .deposits-item-left{
+  width: calc(100% - 450px);
+  float: left;
+  padding-right: 70px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.deposits-card-item .deposits-item-left:hover{
+  transition: all 0.5s ease-in-out 0s;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.2);
+}
+
+.deposits-item-left{
+  height: auto;
+  width: calc(100% - 255px);
+  background: #fff;
+  position: relative;
+  border-radius: 12px;
+  padding: 40px 235px 38px 60px;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  margin: 50px 0 0 0;
+}
+.deposits-item-left h2{
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+  line-height: 50px;
+}
+.deposits-section .deposits-item-left h2 a{
+  font-weight: 600;
+  font-size: 36px;
+  color: #000;
+  transition: 0.3s ease-in;
+}
+.deposits-section .deposits-item-left h2 a:hover {
+  color: #009ea7;
+}
+.deposits-section .deposits-item-left p{
+  display: block;
+  width: 100%;
+  height: 70px;
+  font-size: 18px;
+  margin: 0 0 30px 0;
+  line-height: 1.4;
+}
+.deposits-section .deposits-item-left ul{
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 30px;
+  padding-top: 15px;
+}
+.deposits-section .deposits-item-left ul li{
+  float: left;
+  margin: 0 35px 0 0;
+  padding-left: 0;
+  list-style: none;
+}
+ .deposits-section li{
+  position: relative;
+  margin-bottom: 20px;
+  padding-left: 35px;
+} 
+.deposits-section .deposits-item-left ul li h4{
+  font-size: 16px;
+  color: #093475;
+  margin: 0 0 6px 0;
+  font-weight: 400;
+}
+.deposits-section .deposits-item-left ul li p{
+  font-size: 24px;
+  font-weight: 500;
+  height: auto;
+  margin: 0;
+}
+.deposits-section .deposits-item-bottom{
+  overflow: hidden;
+  width: 100%;
+  padding-top: 24px;
+  border-top: 1px solid #e6eaf1;
+}
+.deposits-item-bottom a{
+  color: #000;
+  font-weight: 400;
+}
+.deposits-item-bottom-make{
+  float: left;
+  border: 2px solid #0C54A0;
+  border-radius: 6px;
+  line-height: 60px;
+  color: #000;
+  font-weight: 500;
+  margin-right: 37px;
+  padding: 0 34px;
+  font-size: 20px;
+  transition: 0.3s ease-in;
+}
+.deposits-item-bottom .deposits-item-bottom-mobile{
+  max-width: 230px;
+}
+.deposits-item-bottom-mobile{
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  font-size: 14px;
+}
+.deposits-item-bottom-mobile img{
+  width: 60px;
+  height: 60px;
+  margin-right: 11px;
+}
+.deposits-item-bottom-make:hover{
+  background: #0C54A0;
+  color: #fff;
+}
+
+.deposits-item-right{
+  float: right;
+  padding: 30px 50px 0 50px;
+  width: 450px;
+  background: #093475;
+  overflow: hidden;
+  position: relative;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 440px;
+  color: #e4bd63;
+  margin: 50px 0 0 0;
+}
+.deposits-item-right:before{
+  top: 0;
+  right: -100px;
+  background: url(../about_Bank/image/omonat_remote-banking.png) repeat-y top;
+  height: 100%;
+  width: 198px;
+  content: '';
+  position: absolute;
+  z-index: 4;
+
+}
+.deposits-item-right ul{
+  position: relative;
+  z-index: 3;
+}
+.deposits-item-rightt ul li:first-child{
+  margin-bottom: 80px;
+}
+.deposits-item-right span{
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 4px;
+}
+.deposits-item-right i{
+  font-style: normal;
+  color: #fff;
+  font-size: 24px;
+  display: block;
+  margin-bottom: 0;
+}
+.depoGold {
+  color: #e4bd63 !important;
+}
+.deposits-item-right strong{
+  font-weight: lighter;
+  font-size: 60px;
+  line-height: 1;
+  font-weight: 600;
+}
+.depoDesc{
+  font-size: 14px !important;
+  line-height: 16px !important;
+}
+.deposits-item-right span{
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 4px;
+}
+.depoInner{
+  width: 165px;
+}
+.depoWrap{
+  display: flex;
+  justify-content: space-between;
+}
+.deposits-item-right ul li{
+  margin-bottom: 18px;
+  padding-left: 0;
+}
+.depoSilver {
+  color: #b6c2d6 !important;
+}
+
+.depoProcentWrap{
+  display: flex;
+  justify-content: space-between;
+}
+
+.deposits-item-right p{
+  margin: 0;
+  line-height: 1;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.deposits-item-right .depo_procent i,
+.deposits-item-right .total_depo_procent i {
+  display: inline-block;
+  font-style: normal;
+}
+
+.depo_procent,
+.total_depo_procent {
+  display: none;
+}
+
+.bg-orange {
+  background-color: #bf9f52;
+  color: #fff;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.bg-orange span {
+  color: #faebc7;
+}
+
+.depoLight {
+  color: #fff !important;
+}

@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+::selection {
+  background-color: #000;
+  color: #fff;
+}
+body {
+  overflow-x: hidden;
+}
+
+.dark-mode {
+  background: #000;
+  color: #fff;
+}
+
+.dark-mode a {
+  color: #fff !important;
+}
+
+
+/* Main Section */
+.main .container {
+  max-width: 1180px;
+}
+
+.main .container .kurs_title {
+  margin-top: 80px;
+}
+
+.main .container .kurs_title .row {
+  /* background: #E4A216; */
+  background-color: #009ea7;
+  color: #009ea7;
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #f3eaea;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .container .kurs_title .row .item {
+  font-weight: bold;
+}
+
+.main .container .kurs_title .row .img-icon .img-chart {
+  padding: 0 5px 0 2px;
+}
+
+.main .container .kurs_title .row .col-1 img {
+  float: left;
+}
+
+.main .container .kurs_title .row .col-1 span {
+  display: block;
+}
+
+.main .container .kurs_title .row .col_button {
+  position: relative;
+}
+
+.main .container .kurs_title .row .col_button .button-open {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #009ea7;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 6px;
+  width: 50px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+
+.main .container .kurs_title .row .col_button .button-open:hover {
+  width: 150px;
+}
+
+.main .container .kurs_title .row .col_button .button-open:hover span {
+  padding-right: 95px;
+}
+
+.main .container .kurs_title .row .col_button .button-open:hover span:after {
+  opacity: 1;
+  right: 40px;
+}
+
+.main .container .kurs_title .row .col_button .button-open span {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main .container .kurs_title .row .col_button .button-open span:after {
+  content: 'Konverter';
+  position: absolute;
+  opacity: 0;
+  top: 7px;
+  right: 10px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -10px;
+}
+
+.middle:hover {
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.38);
+  background: #4AB9BF;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.middle .col-1 {
+  border-bottom: 1px dashed #ccc;
+}
+
+.middle:hover .icon-chart {
+  display: block;
+}
+
+.middle .mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-bottom: 1px dashed #ccc;
+}
+
+.middle .mid img {
+  width: 34px;
+  height: 34px;
+  margin: 15px 10px;
+  cursor: pointer;
+}
+
+.middle .mid .item {
+  font-size: 18px;
+}
+
+.middle .mid .diff {
+  padding: 3px 0 0 0;
+}
+
+.middle .mid .item-text {
+  padding: 20px 0 20px 15px;
+}
+
+.col-1 .icon-chart {
+  display: none;
+  font-size: 24px;
+  padding: 15px 0;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+
+.section-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background: rgba(0, 0, 0, 0.84);
+}
+
+.section-box .converter_section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #ddd;
+  border: 2px solid #000;
+  width: 500px;
+  height: 280px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.section-box .converter_section i {
+  margin: 3px 5px 0 450px;
+  cursor: pointer;
+  font-size: 1.3em;
+  color: #000;
+}
+
+.section-box .converter_section .calc-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-box .converter_section .calc-bar h3 {
+  margin: 0 150px 0 10px;
+  font-weight: bold;
+  font-size: 30px;
+  color: #000;
+}
+
+.section-box .converter_section .calc-bar .img-cours_logo {
+  width: 120px;
+}
+
+.section-box .converter_section .converter_main {
+  padding: 20px;
+}
+
+.section-box .converter_section .converter_main .box-1 {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.section-box .converter_section .converter_main input {
+  outline: none;
+}
+
+.section-box .converter_section button {
+  position: absolute;
+  top: 70%;
+  right: 18%;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: none;
+  border: 1px solid #000;
+}

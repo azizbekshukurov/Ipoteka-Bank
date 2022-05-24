@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+::selection {
+  background-color: #000;
+  color: #fff;
+}
+body {
+  overflow-x: hidden;
+}
+
+.dark-mode {
+  background: #000;
+  color: #fff;
+}
+
+.dark-mode a {
+  color: #fff !important;
+}
+/*  Login Section */
+.login-section {
+  position: relative;
+  margin: 50px 0 0 0;
+  background: radial-gradient(107.72% 107.72% at 50% -18.72%, #e4bd63 0%, #009ca6 32.36%, #093475 99.98%);
+}
+.login-section .login-page_top-left img {
+  left: 0;
+  top: 0;
+}
+.login-section .login-page_bot-right {
+  padding-top: 350px;
+}
+
+.login-section .login-page_bot-right img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.login-section .container {
+  position: absolute;
+  top: 10%;
+  left: 7%;
+}
+
+.login-section .container .login-page_title {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.login-section .container .login-page_desc {
+  display: block;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.login-section .container .login-page_form {
+  max-width: 444px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 60px 48px;
+  margin: 0 auto;
+}
+
+.login-section .container .login-page_form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 18px;
+  border: 1px solid #e6eaf1;
+  border-radius: 6px;
+  background: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+  padding: 18px;
+  line-height: 22px;
+  outline: none;
+}
+
+.login-section .container .login-page_form button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.login-section .login-page_form button.call-notify{
+  font-size: 18px;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #000;
+  border: 2px solid #008CBA;
+  padding: 10px 155px;
+  transition: 0.2s ease-in;
+}
+.login-section .login-page_form button.call-notify:hover{
+  background: #008CBA; 
+  color: #fff;
+}
+.login-section .container .login-page__password {
+  position: relative;
+}
+
+.login-section .container .login-page__password a {
+  display: block;
+  height: 24px;
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.login-section .container .call-notify {
+  border: 1px solid #000;
+  padding: 3px 10px;
+}
+
+.login-section .container .login-page__hr {
+  margin: 24px 0;
+  width: 100%;
+  height: 1px;
+  background: #d7dae0;
+}
+
+.login-section .container a.first {
+  font-weight: 400;
+  color: #848e9f;
+}
+
+.login-section .container a.second {
+  font-weight: 400;
+  color: #848e9f;
+  text-decoration: none;
+  padding: 0 0 0 65px;
+}
+
+form.form_Show-Hide button {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  border: none;
+  background: none;
+  font-size: 18px;
+}
+
+form.form_Show-Hide button i.bi-eye-slash::before {
+  padding: 15px 10px;
+  font-size: 22px;
+}
+
+form.form_Show-Hide button i.bi-eye::before {
+  padding: 15px 10px;
+  font-size: 22px;
+}
